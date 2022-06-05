@@ -1,0 +1,104 @@
+{
+  "tests": [
+    {
+      "name": "Pregunta 01",
+      "setup": "",
+      "run": "cd pregunta_01 && python3 test.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Pregunta 02",
+      "setup": "",
+      "run": "cd pregunta_02 && python3 test.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Pregunta 03",
+      "setup": "",
+      "run": "cd pregunta_03 && python3 test.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Pregunta 04",
+      "setup": "",
+      "run": "cd pregunta_04 && python3 test.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Pregunta 05",
+      "setup": "",
+      "run": "cd pregunta_05 && python3 test.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Pregunta 06",
+      "setup": "",
+      "run": "cd pregunta_06 && python3 test.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Pregunta 07",
+      "setup": "",
+      "run": "cd pregunta_07 && python3 test.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Pregunta 08",
+      "setup": "",
+      "run": "cd pregunta_08 && python3 test.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Pregunta 09",
+      "setup": "",
+      "run": "cd pregunta_09 && python3 test.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Pregunta 10",
+      "setup": "",
+      "run": "cd pregunta_10 && python3 test.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
