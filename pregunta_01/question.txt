@@ -1,0 +1,16 @@
+Pregunta
+===============================================================================
+
+El archivo `credit.csv` contiene 1000 registros de estudio de creditos. El 
+archivo `codebook.txt` contiene la descripcion de los 20 atributos que 
+recopilan la información sobre el credito y la salud financiera del 
+solicitante. 
+
+Compute la cantidad de registros por cada tipo del atributo `credit_history` 
+usando el algoritmo Map/Reduce. Para ello, complete el codigo del mapper 
+(`mapper.py`) y del reducer (`reducer.py`).
+
+Pruebe el algoritmo con 
+
+$ cat credit.csv | python mapper.py | sort | python reducer.py 
+
