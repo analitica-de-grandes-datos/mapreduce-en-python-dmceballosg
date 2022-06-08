@@ -1,14 +1,13 @@
 import sys
-elements_reduced = {};
+biggest_purposes = {};
 
-def get_bigger(acc, nxt):
-    nxt_param = nxt.split("*")
-    actual_value = int(acc.get(nxt_param[0]) or 0)
-    acc[nxt_param[0]] = actual_value if actual_value > int(nxt_param[1]) else int(nxt_param[1])
-    return acc
+def set_bigger_purpose(dictionary_purposes, actual_element):
+    element_array = actual_element.split("*")
+    dictionary_purposes[element_array[0]] = max(int(dictionary_purposes.get(element_array[0]) or 0),int(element_array[1])) 
+    return dictionary_purposes
 
 for line in sys.stdin:
-    get_bigger(elements_reduced, line)
+    set_bigger_purpose(biggest_purposes, line)
 
-for elements_reduced, index in elements_reduced.items():
-    print(elements_reduced + "	" + str(index), end = '\n')
+for purpose, amount in biggest_purposes.items():
+    print(purpose + "	" + str(amount))
