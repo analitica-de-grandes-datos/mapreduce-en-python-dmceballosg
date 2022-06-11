@@ -3,8 +3,13 @@
 #
 import sys
 
+def clear_spaces(x):
+    x = x.replace("\n", "")
+    x = x.replace("\r", "")
+    return x
+
 def purpose_amount(x):
-    return  x[1].replace("\r\n","") +  "*" + x[0]
+    return  clear_spaces(x[1]) +  "*" + clear_spaces(x[0])
 
 for line in sys.stdin:
     result = line.split(',')
