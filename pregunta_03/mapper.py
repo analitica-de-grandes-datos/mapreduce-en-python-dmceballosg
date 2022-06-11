@@ -4,7 +4,7 @@
 import sys
 
 def purpose_amount(x):
-    return  x[1].replace("\r\n","") +  "," + x[0]
+    return  x[1].replace("\r\n","") +  "*" + x[0]
 
 for line in sys.stdin:
     result = line.split(',')

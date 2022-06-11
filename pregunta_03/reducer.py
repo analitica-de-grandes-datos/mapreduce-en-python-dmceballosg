@@ -5,4 +5,5 @@ import sys
 
 for line in sys.stdin:
     line = line.replace("\n","")
-    print(line.split(",")[1]+ "," +line.split(",")[0])
+    if '*' in line:
+        print(line.split("*")[1]+ "," +line.split("*")[0])
